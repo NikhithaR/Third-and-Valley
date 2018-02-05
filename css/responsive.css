@@ -1,0 +1,18 @@
+/* Header */
+@media only screen and (max-width: 960px){
+    nav {
+        position: relative;
+     }
+      nav ul {
+          transform: translateY(0);
+          box-shadow: 0 0 5px rgba(0,0,0, .7);
+        transition: all .5s;
+        position: absolute;
+        width: 100%;
+      }
+      nav li {
+          flex: none; 
+          width: 100%;
+          border-bottom: solid 1px #777;
+      } 
+}
