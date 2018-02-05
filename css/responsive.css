@@ -1,18 +1,97 @@
 /* Header */
 @media only screen and (max-width: 960px){
-    nav {
-        position: relative;
-     }
-      nav ul {
-          transform: translateY(0);
-          box-shadow: 0 0 5px rgba(0,0,0, .7);
-        transition: all .5s;
-        position: absolute;
-        width: 100%;
-      }
-      nav li {
-          flex: none; 
-          width: 100%;
-          border-bottom: solid 1px #777;
-      } 
+    .nav.utility > li {
+        display: Inline-block;
+        padding: 8px 0 9px 0px;
+    }
+    .nav.main > li {
+        display: Inline-block;
+        padding: 8px 0 9px 0px;
+    }
+    .nav {
+        float: right;
+        list-style: none;
+        text-align: left;
+        margin: -7px;
+        max-width: 73%;
+    }
+    ul.nav.main > li > a {
+        font-family: Museo_Slab_500;
+        font-size: 13px;
+        color: #575c64;
+    }
+    #hamburger{
+        display:none;
+    }
+    #searchButton {
+        border: none;
+        font-family: Proxima_Semibold;
+        font-size: 11px;
+        color: #ffffff;
+        background: #27aeea;
+        width: 16%;
+    }
+    #signup {
+        border: none;
+        font-family: Proxima_Semibold;
+        font-size: 11px;
+        color: #ffffff;
+    }
+    /* #hamburger{
+        float: right;
+        margin-top: 1%;
+} */
+}
+@media only screen and (max-width: 640px){
+    .headings ul > li > a {
+        font-family: Proxima_bold;
+        font-size: 41px;
+        text-transform: Uppercase;
+        color: #d1d3d4;
+    }
+    ul.nav.main > li > a {
+        font-family: Museo_Slab_500;
+        font-size: 8px;
+        color: #575c64;
+    }
+    #hamburger{
+        display:none;
+    }
+    #searchButton {
+        border: none;
+        font-family: Proxima_Semibold;
+        font-size: 8px;
+        color: #ffffff;
+        background: #27aeea;
+        width: 16%;
+    }
+    #signup {
+        border: none;
+        font-family: Proxima_Semibold;
+        font-size: 8px;
+        color: #ffffff;
+    }
+    ul.nav.utility> li> a {
+        font-family: Proxima_Semibold;
+        font-size: 8px;
+        color: #b2b3b4;
+    }
+}
+@media only screen and (max-width: 420px){
+    #menu{
+        display:none;
+    }
+    #hamburger {
+        display: inline;
+        margin-left: 300px;
+    }
+}
+@media only screen and (width: 360px) and (height:640){
+    #logo {
+        display: inline-block;
+        float: left;
+        margin-top: -7%;
+        width: 52%;
+    }
+
 }

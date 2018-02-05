@@ -1,126 +1,186 @@
-/* fonts */
 @font-face {
-    font-family: Museo_Slab_500;
-    src: url(../Fonts/Museo_Slab_500.otf);
-}
-@font-face {
-    font-family: Proxima_Semibold;
-    src: url(../Fonts/ProximaNova-Sbold.otf);
-}
-@font-face {
-    font-family: Proxima_bold;
-    src: url(../Fonts/ProximaNova-Bold.otf.otf);
-}
-body {
-    padding: 0;
-    margin: 0;
-}
-div {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-#logo {
-    float: left;
-    display: inline-block;
-    width: 20%;
-    margin-top: 1%;
-}
-.clear {
-    clear: both;
-}
-#navigation {
-    color: #000000;
-    width: 100%;
-}
-#menu{
-    height: 50px;
-}
-.nav {
-    float: right;
-    list-style: none;
-    text-align: left;
-    margin: -7px;
-    max-width: 63%;
-}
-.nav > li {
+    font-family:Museo_Slab_500;
+    src:url(../Fonts/Museo_Slab_500.otf)
+    }
+    
+    @font-face {
+    font-family:Proxima_Semibold;
+    src:url(../Fonts/ProximaNova-Sbold.otf)
+    }
+    
+    @font-face {
+    font-family:Proxima_bold;
+    src:url(../Fonts/ProximaNova-Bold.otf.otf)
+    }
+    
+    #headerImage {
+    background:url(../images/Regular_size/Home_hero1.jpg) no-repeat;
+    background-size:cover;
+    min-height:500px;
+    width:100%
+    }
+    
+    #headerImage li {
+    float:left
+    }
+    
+    #headerImage li:active {
+    color:grey
+    }
+    
+    #logo {
+    display:inline-block;
+    float:left;
+    margin-top:1%;
+    width:20%
+    }
+    
+    #menu {
+    height:50px
+    }
+    
+    #navigation {
+    color:#000000;
+    width:100%
+    }
+    
+    #searchButton {
+    background:#27aeea;
+    border:none;
+    color:#ffffff;
+    font-family:Proxima_Semibold;
+    font-size:13px;
+    width:16%
+    }
+    
+    #signup {
+    background:#c6cc00;
+    border:none;
+    color:#ffffff;
+    font-family:Proxima_Semibold;
+    font-size:13px;
+    width:8%
+    }
+    
+    .headings {
+    padding-top:211px;
+    text-transform:uppercase
+    }
+    
+    .headings ul > li > a {
+    color:#d1d3d4;
+    font-family:Proxima_bold;
+    font-size:58px;
+    text-transform:Uppercase
+    }
+    
+    .headings ul > li > a:active {
+    color:#ffffff;
+    font-family:Proxima_bold;
+    font-size:58px;
+    text-transform:Uppercase
+    }
+    
+    .headings ul > li > a:hover {
+    cursor:pointer
+    }
+    
+    .nav > li {
     display:Inline-block;
-    padding: 10px 9px 10px 9px;
-}
-.nav > li a {
-    text-decoration: none;
-    font-size: 14px;
-    padding: 5px 0px 5px 0px 
-}
-
-ul.nav.utility> li> a{
-    font-family: Proxima_Semibold;
-    font-size: 13px;	
+    padding:10px 9px
+    }
+    
+    .nav > li a {
+    font-size:14px;
+    padding:5px 0;
+    text-decoration:none
+    }
+    
+    .nav.main {
+    float:right;
+    list-style:none;
+    margin:-7px;
+    max-width:70%;
+    text-align:left
+    }
+    
+    .nav.main > li {
+    display:Inline-block;
+    padding:0
+    }
+    
+    .nav.main > ul {
+    list-style-type:none;
+    width:72%
+    }
+    
+    .nav.utility {
+    float:right;
+    list-style:none;
+    margin:-7px;
+    max-width:70%;
+    text-align:left
+    }
+    
+    .nav.utility > li {
+    display:Inline-block;
+    padding:8px 0 9px
+    }
+    
+    a {
+    text-decoration:none!important
+    }
+    
+    body {
+    margin:0;
+    padding:0
+    }
+    
+    div {
+    height:100%;
+    overflow:hidden;
+    width:100%
+    }
+    
+    ul {
+    list-style-type:none;
+    width:70%
+    }
+    
+    ul.nav.main > li {
+    position:relative
+    }
+    
+    ul.nav.main > li > a {
+    color:#575c64;
+    font-family:Museo_Slab_500;
+    font-size:14px
+    }
+    
+    ul.nav.main > li > a:active {
+    color:#f0711f
+    }
+    
+    ul.nav.main > li > a:hover {
+    background-color: transparent;
+    color:#f0711f
+    }
+    
+    ul.nav.main >li:first-child {
+    margin-left:-38px
+    }
+    
+    ul.nav.utility> li> a {
     color:#b2b3b4;
-}
-ul.nav.utility > li > a:active {
-    color: #27aeea;
-}
-.nav.utility > li {
-    display: Inline-block;
-    padding: 10px 17px 9px 9px;
-}
-ul.nav.main > li > a{
-    font-family: Museo_Slab_500;
-    font-size: 14px;
-    color: #575c64;
-}
-ul.nav.main > li > a:active {
-    color: #f0711f;
-}
-#searchButton{
-    border: none;
-    font-family: Proxima_Semibold;
-    font-size: 13px;	
-    color:#ffffff;
-    background: #27aeea;
-    width: 16%;
-}
-#signup{
-    border: none;
-    font-family: Proxima_Semibold;
-    font-size: 13px;	
-    color:#ffffff;
-    background: #c6cc00;
-    width: 8%;
-}
-#headerImage {
-    min-height: 500px;
-    background:url('../images/Regular_size/Home_hero1.jpg') no-repeat;
-    background-size: cover;
-}
-
-.headings {
-    padding-top: 211px;
-    text-transform: uppercase;
-}
-ul {
-    list-style-type: none;
-    width: 70%;
-}
-.headings ul > li > a:active {
-    font-family: Proxima_bold;
-    font-size: 58px;
-    text-transform: Uppercase;
-    color: #ffffff;
-}
-.headings ul > li > a{
-    font-family: Proxima_bold;
-    font-size: 58px;
-    text-transform: Uppercase;
-    color: #d1d3d4;
-}
-.headings ul > li > a:hover{
-    cursor: pointer;
-}
-#headerImage li {
-    float: left;
-}
-#headerImage li:active{
-    color: grey;
-}
+    font-family:Proxima_Semibold;
+    font-size:13px;
+    }
+    
+    ul.nav.utility> li > a :active {
+    color:#27aeea;
+    }
+    
+    ul.nav.utility> li > a :hover {
+    background-color: transparent;
+    color:#27aeea;
+    }
