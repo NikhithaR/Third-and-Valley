@@ -1,4 +1,53 @@
-@font-face {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Fonts */
+    @font-face {
     font-family:Museo_Slab_500;
     src:url(../Fonts/Museo_Slab_500.otf)
     }
@@ -12,7 +61,114 @@
     font-family:Proxima_bold;
     src:url(../Fonts/ProximaNova-Bold.otf.otf)
     }
-    
+
+    /* Header */
+    header {
+        height: 65px;
+    }
+    .head{
+        display: flex;        
+    }
+    #logo {
+        display:inline-block;
+        float:left;
+        margin-top:1%;
+        width:20%
+        }
+    .navigation{
+        float: right;
+        width: 100%;
+    }
+    .utlity_div {
+        display: flex;
+        height: 32px;
+    }
+    .nav.utility>li>a {
+        position: relative;
+        display: block;
+        padding: 9px 5px;
+    }
+    .nav.main>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+    }
+    ul.nav.main > li > a {
+        color: #575c64;
+        font-family: Museo_Slab_500;
+        font-size: 14px;
+        padding: 10px 4px;
+    }
+    .nav.utility {
+        float:right;
+        list-style:none;
+        margin:-7px;
+        min-width:44%;
+        text-align:left
+        }
+        ul.nav.utility> li> a {
+            color:#b2b3b4;
+            font-family:Proxima_Semibold;
+            font-size:13px;
+            }
+        ul.nav.utility> li> a:hover{
+            background-color: transparent;
+            color:#27aeea;
+        }
+        #social_icons {
+            background: url(../images/social_icons.png) no-repeat;
+            margin-left: 24%;
+            margin-top: 1%;
+            width: 11%;
+        }
+        #social_icons:hover{
+            background: url(../images/social_icons_hover.png) no-repeat; 
+        }
+        #searchButton {
+            background:#27aeea;
+            border:none;
+            color:#ffffff;
+            font-family:Proxima_Semibold;
+            font-size:13px;
+            width:24%;
+            }
+            
+            #signup {
+            background:#c6cc00;
+            border:none;
+            color:#ffffff;
+            font-family:Proxima_Semibold;
+            font-size:13px;
+            width:13%
+            }
+            /* hamburger */
+            .hamburger{
+                display:none;
+            }
+            .hamburger {
+                display: inline-block;
+                cursor: pointer;
+            }
+            
+            .bar1, .bar2, .bar3 {
+                width: 35px;
+                height: 5px;
+                background-color: #333;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+            
+            .change .bar1 {
+                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                transform: rotate(-45deg) translate(-9px, 6px);
+            }
+            
+            .change .bar2 {opacity: 0;}
+            
+            .change .bar3 {
+                -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                transform: rotate(45deg) translate(-8px, -8px);
+            }
     #headerImage {
     background:url(../images/Regular_size/Home_hero1.jpg) no-repeat;
     background-size:cover;
@@ -28,12 +184,7 @@
     color:grey
     }
     
-    #logo {
-    display:inline-block;
-    float:left;
-    margin-top:1%;
-    width:20%
-    }
+    
     
     #menu {
     height:50px
@@ -44,23 +195,7 @@
     width:100%
     }
     
-    #searchButton {
-    background:#27aeea;
-    border:none;
-    color:#ffffff;
-    font-family:Proxima_Semibold;
-    font-size:13px;
-    width:16%
-    }
-    
-    #signup {
-    background:#c6cc00;
-    border:none;
-    color:#ffffff;
-    font-family:Proxima_Semibold;
-    font-size:13px;
-    width:8%
-    }
+   
     
     .headings {
     padding-top:211px;
@@ -90,11 +225,6 @@
     padding:10px 9px
     }
     
-    .nav > li a {
-    font-size:14px;
-    padding:5px 0;
-    text-decoration:none
-    }
     
     .nav.main {
     float:right;
@@ -114,13 +244,7 @@
     width:72%
     }
     
-    .nav.utility {
-    float:right;
-    list-style:none;
-    margin:-7px;
-    max-width:70%;
-    text-align:left
-    }
+    
     
     .nav.utility > li {
     display:Inline-block;
@@ -150,13 +274,7 @@
     ul.nav.main > li {
     position:relative
     }
-    
-    ul.nav.main > li > a {
-    color:#575c64;
-    font-family:Museo_Slab_500;
-    font-size:14px
-    }
-    
+
     ul.nav.main > li > a:active {
     color:#f0711f
     }
@@ -170,20 +288,9 @@
     margin-left:-38px
     }
     
-    ul.nav.utility> li> a {
-    color:#b2b3b4;
-    font-family:Proxima_Semibold;
-    font-size:13px;
-    }
-    
-    ul.nav.utility> li > a :active {
-    color:#27aeea;
-    }
-    
-    ul.nav.utility> li > a :hover {
-    background-color: transparent;
-    color:#27aeea;
-    }
+
+
+   
     .navbar-collapse.collapse {
         margin-left: 21px;
     }
