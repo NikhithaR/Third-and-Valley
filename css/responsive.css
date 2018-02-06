@@ -1,4 +1,4 @@
-/* Header */
+/* Header
 @media only screen and (max-width: 960px){
     .nav.utility > li {
         display: Inline-block;
@@ -36,13 +36,13 @@
         font-family: Proxima_Semibold;
         font-size: 11px;
         color: #ffffff;
-    }
+    } */
     /* #hamburger{
         float: right;
         margin-top: 1%;
 } */
-}
-@media only screen and (max-width: 640px){
+/* } */
+/* @media only screen and (max-width: 640px){
     .headings ul > li > a {
         font-family: Proxima_bold;
         font-size: 41px;
@@ -94,4 +94,108 @@
         width: 52%;
     }
 
+} */
+@media only screen and (min-width: 360px) and (max-width:640px){
+    .navbar {
+        position: relative;
+        min-height: 4px;
+        border: 1px solid transparent;
+    }
+    #phone{
+        width: 30%;
+    }
+    #hamburger{
+        width: 54%;
+    }
+    .headings {
+        padding-top: 329px;
+        text-transform: uppercase;
+    }
+    .headings ul > li > a {
+        color: #d1d3d4;
+        font-family: Proxima_bold;
+        font-size: 20px;
+        text-transform: Uppercase;
+    }
+    #logo {
+        display: inline-block;
+        float: left;
+        margin-top: -11%;
+        width: 52%;
+    }
+    .headings ul > li > a:active {
+        color: #ffffff;
+        font-family: Proxima_bold;
+        font-size: 20px;
+        text-transform: Uppercase;
+    }
+    .nav.utility{
+        display: grid;
+        position: absolute;
+        top: 382px;
+    }
+    .nav.main{
+        display: grid;
+        position: absolute;
+    }
+    .navbar-collapse collapse in{
+        position: relative;
+        float: left;
+        height: 700px;
+    }
+    #searchButton {
+        background: #27aeea;
+        border: none;
+        color: #ffffff;
+        font-family: Proxima_Semibold;
+        font-size: 13px;
+        width: 58%;
+        position: absolute;
+        top: -298px;
+        margin-left: 146px;
+    }
+    #signup {
+        background: #c6cc00;
+        border: none;
+        color: #ffffff;
+        font-family: Proxima_Semibold;
+        font-size: 13px;
+        width: 59%;
+        position: absolute;
+        top: -298px;
+    }
+    .navbar-collapse.in {
+        height: 565px;
+    }
+    ul.nav.main >li:first-child {
+        margin-left:0px
+        }
+        #social_icons{
+            top: 45px;
+            position: absolute;
+            margin-left: 16px;
+        }
+        .nav.utility > li {
+            display: Inline-block;
+            padding: 8px 0 9px;
+            margin-bottom: -10px;
+        }
+        ul.nav.utility> li> a {
+            color: #b2b3b4;
+            font-family: Proxima_Semibold;
+            font-size: 13px;
+            margin-bottom: -10px;
+            top: 61px;
+        }
+        .nav>li>a {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+        }
+        ul.nav.main > li > a {
+            color: #575c64;
+            font-family: Museo_Slab_500;
+            font-size: 14px;
+            top: 37px;
+        }
 }
