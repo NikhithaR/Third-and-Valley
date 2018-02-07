@@ -12,7 +12,9 @@ $(function(){
     e.preventDefault();
     $('#headerImage').css('background','url(/images/Regular_size/Home_hero3.jpg)','transition','background-image 2s ease-out;');
 });
+});
 function myFunction(x) {
   x.classList.toggle("change");
+  //$('.navigation').toggle();
+  $('.navigation').css('display','table');
 }
-});

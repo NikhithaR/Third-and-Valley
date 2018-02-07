@@ -42,6 +42,33 @@
     font-size: 44px;
     text-transform: Uppercase;
 }
+.navigation {
+    position: absolute;
+    overflow: auto;
+    margin-top: 64px;
+    background: #fff;
+    margin-left: 385px;
+    width: 40%;
+}
+.main_div{
+    display: table-header-group;
+}
+.utlity_div{
+    display: table-footer-group;
+}
+.nav.main > li, .nav.utility > li {
+    display:block;
+}
+header {
+    height: 65px;
+    position: relative;
+}
+ul.nav.main >li:first-child {
+    margin-left: 0px;
+}
+.nav.utility{
+    min-width: 63%;
+}
 }
 /*-----Galaxy S5---- Portrait---*/
 @media screen and (width: 360px) and (height: 640px) {
@@ -55,6 +82,24 @@
     .hamburger {
         margin-left: 88%;
         margin-top: -14%;
+    }
+    .navigation {
+        margin-left: 0px;
+        width: 101%;
+    }
+    ul.nav.main > li > a {
+        font-size: 25px;
+    }
+    ul.nav.utility > li > a {
+        font-size: 20px;
+    }
+    .nav.main {
+        float: none;
+        margin-left: 10%;
+    }
+    .nav.utility {
+        float: none;
+        margin-left: 11%;
     }
 
 }
@@ -71,6 +116,24 @@
     .hamburger {
         margin-left: 88%;
         margin-top: -11%;
+    }
+    .navigation {
+        margin-left: 0px;
+        width: 101%;
+    }
+    ul.nav.main > li > a {
+        font-size: 25px;
+    }
+    ul.nav.utility > li > a {
+        font-size: 20px;
+    }
+    .nav.main {
+        float: none;
+        margin-left: 10%;
+    }
+    .nav.utility {
+        float: none;
+        margin-left: 11%;
     }
 
 }
@@ -97,6 +160,7 @@
     .headings ul > li > a {
         font-size: 36px;
     }
+    
 
 }
 
@@ -108,6 +172,24 @@
     .hamburger {
         margin-left: 88%;
         margin-top: -11%;
+    }
+    .navigation {
+        margin-left: 0px;
+        width: 101%;
+    }
+    ul.nav.main > li > a {
+        font-size: 25px;
+    }
+    ul.nav.utility > li > a {
+        font-size: 20px;
+    }
+    .nav.main {
+        float: none;
+        margin-left: 10%;
+    }
+    .nav.utility {
+        float: none;
+        margin-left: 11%;
     }
 
 }
@@ -140,6 +222,24 @@
         margin-left: 88%;
         margin-top: -11%;
     }
+    .navigation {
+        margin-left: 0px;
+        width: 101%;
+    }
+    ul.nav.main > li > a {
+        font-size: 25px;
+    }
+    ul.nav.utility > li > a {
+        font-size: 20px;
+    }
+    .nav.main {
+        float: none;
+        margin-left: 10%;
+    }
+    .nav.utility {
+        float: none;
+        margin-left: 11%;
+    }
 	
 
 }
@@ -164,6 +264,7 @@
     .nav.utility {
         margin-left: 78px;
     }
+    
 
 
 }
