@@ -1,314 +1,266 @@
-@media screen and (max-width: 960px){
-    #social_icons {
-        margin-left: 9%;
-        margin-top: 1%;
-        width: 11%;
+ @media screen and (max-width: 960px){
+     #social_icons {
+         margin-left: 9%;
+         margin-top: 1%;
+         width: 11%;
     }
-    .nav.utility {
-        float: right;
-        list-style: none;
-        margin: -7px;
-        min-width: 100%;
-        text-align: left;
-        margin-left: 12px;
+     .nav.utility {
+         float: right;
+         list-style: none;
+         margin: -7px;
+         min-width: 100%;
+         text-align: left;
+         margin-left: 12px;
     }
-    .main_div{
-        width: 128%;
-        margin-left: -30%;
+     .main_div{
+         width: 128%;
+         margin-left: -30%;
     }
-    ul.nav.main >li:first-child {
-        margin-left: -37px;
+     ul.nav.main >li:first-child {
+         margin-left: -37px;
     }
 }
-@media screen and (max-width: 640px){
-    #logo {
-        display: inline-block;
-        float: left;
-        margin-top: 1%;
-        width: 42%;
+ @media screen and (max-width: 640px){
+     #logo {
+         display: inline-block;
+         float: left;
+         margin-top: 1%;
+         width: 42%;
     }
-    .hamburger {
-        display: inline-block;
-        width: 8%;
-        margin-left: 92%;
-        margin-top: -8%;
+     .hamburger {
+         display: inline-block;
+         width: 8%;
+         margin-left: 92%;
+         margin-top: -8%;
     }
- .navigation{
-     display: none;
- }
- .headings ul > li > a {
-    color: #d1d3d4;
-    font-family: Proxima_bold;
-    font-size: 44px;
-    text-transform: Uppercase;
-}
-.navigation {
-    position: absolute;
-    overflow: auto;
-    margin-top: 64px;
-    background: #fff;
-    margin-left: 385px;
-    width: 40%;
-}
-.main_div{
-    display: table-header-group;
-}
-.utlity_div{
-    display: table-footer-group;
-}
-.nav.main > li, .nav.utility > li {
-    display:block;
-}
-header {
-    height: 65px;
-    position: relative;
-}
-ul.nav.main >li:first-child {
-    margin-left: 0px;
-}
-.nav.utility{
-    min-width: 63%;
-}
+     .navigation{
+         display: none;
+    }
+     .headings ul > li > a {
+         color: #d1d3d4;
+         font-family: Proxima_bold;
+         font-size: 44px;
+         text-transform: Uppercase;
+    }
+     .navigation {
+         position: absolute;
+         overflow: auto;
+         margin-top: 64px;
+         background: #fff;
+         margin-left: 385px;
+         width: 40%;
+    }
+     .main_div{
+         display: table-header-group;
+    }
+     .utlity_div{
+         display: table-footer-group;
+    }
+     .nav.main > li, .nav.utility > li {
+         display:block;
+    }
+     header {
+         height: 65px;
+         position: relative;
+    }
+     ul.nav.main >li:first-child {
+         margin-left: 0px;
+    }
+     .nav.utility{
+         min-width: 63%;
+    }
 }
 /*-----Galaxy S5---- Portrait---*/
-@media screen and (width: 360px) and (height: 640px) {
-	
-    #logo {
-        width: 50%;
+ @media screen and (width: 360px) and (height: 640px) {
+     #logo {
+         width: 50%;
     }
-    .headings ul > li > a {
-        font-size: 36px;
+     .headings ul > li > a {
+         font-size: 36px;
     }
-    .hamburger {
-        margin-left: 88%;
-        margin-top: -14%;
+     .hamburger {
+         margin-left: 88%;
+         margin-top: -14%;
     }
-    .navigation {
-        margin-left: 0px;
-        width: 101%;
+     .navigation {
+         margin-left: 0px;
+         width: 101%;
     }
-    ul.nav.main > li > a {
-        font-size: 25px;
+     ul.nav.main > li > a , #searchButton, #signup{
+         font-size: 25px;
     }
-    ul.nav.utility > li > a {
-        font-size: 20px;
+     ul.nav.utility > li > a {
+         font-size: 20px;
     }
-    .nav.main {
-        float: none;
-        margin-left: 10%;
+     .nav.main {
+         float: none;
+         margin-left: 10%;
     }
-    .nav.utility {
-        float: none;
-        margin-left: 11%;
+     .nav.utility {
+         float: none;
+         margin-left: 11%;
     }
-
 }
-
 /*-----Galaxy S5---- Landscape---*/
-@media screen and (width: 640px) and (height: 360px) {
-
-
+ @media screen and (width: 640px) and (height: 360px) {
 }
-
-
 /*-----Nexus 5X, Nexus 6P ---- Portrait---*/
-@media screen and (width: 412px) and (height: 732px) {
-    .hamburger {
-        margin-left: 88%;
-        margin-top: -11%;
+ @media screen and (width: 412px) and (height: 732px) {
+     .hamburger {
+         margin-left: 88%;
+         margin-top: -11%;
     }
-    .navigation {
-        margin-left: 0px;
-        width: 101%;
+     .navigation {
+         margin-left: 0px;
+         width: 101%;
     }
-    ul.nav.main > li > a {
-        font-size: 25px;
+     ul.nav.main > li > a , #searchButton, #signup {
+         font-size: 25px;
     }
-    ul.nav.utility > li > a {
-        font-size: 20px;
+     ul.nav.utility > li > a {
+         font-size: 20px;
     }
-    .nav.main {
-        float: none;
-        margin-left: 10%;
+     .nav.main {
+         float: none;
+         margin-left: 10%;
     }
-    .nav.utility {
-        float: none;
-        margin-left: 11%;
+     .nav.utility {
+         float: none;
+         margin-left: 11%;
     }
-
 }
 /*-----Nexus 5X--- Landscape---*/
-@media screen and (min-width: 412px) and (max-width: 732px)and (orientation: landscape) {
-
+ @media screen and (min-width: 412px) and (max-width: 732px)and (orientation: landscape) {
 }
-
 /*-----Nexus 5X, Nexus 6P---- Landscape---*/
-@media screen and (width: 732px) and (height: 412px) {
-	.navigation{
-        display: none;
+ @media screen and (width: 732px) and (height: 412px) {
+     .navigation{
+         display: none;
     }
-    .hamburger {
-        display: inline-block;
-        width: 8%;
-        margin-left: 92%;
-        margin-top: -8%;
+     .hamburger {
+         display: inline-block;
+         width: 8%;
+         margin-left: 92%;
+         margin-top: -8%;
     }
-    .headings {
-        padding-top: 290px;
-        text-transform: uppercase;
+     .headings {
+         padding-top: 290px;
+         text-transform: uppercase;
     }
-    .headings ul > li > a {
-        font-size: 36px;
+     .headings ul > li > a {
+         font-size: 36px;
     }
-    
-
 }
-
 /*-----iPhone 7, iPhone 8 ---- Portrait---*/
-@media screen and (width: 375px) and (height: 667px) {
-	#logo{
-        width: 50%;
+ @media screen and (width: 375px) and (height: 667px) {
+     #logo{
+         width: 50%;
     }
-    .hamburger {
-        margin-left: 88%;
-        margin-top: -11%;
+     .hamburger {
+         margin-left: 88%;
+         margin-top: -11%;
     }
-    .navigation {
-        margin-left: 0px;
-        width: 101%;
+     .navigation {
+         margin-left: 0px;
+         width: 101%;
     }
-    ul.nav.main > li > a {
-        font-size: 25px;
+     ul.nav.main > li > a , #searchButton, #signup {
+         font-size: 25px;
     }
-    ul.nav.utility > li > a {
-        font-size: 20px;
+     ul.nav.utility > li > a {
+         font-size: 20px;
     }
-    .nav.main {
-        float: none;
-        margin-left: 10%;
+     .nav.main {
+         float: none;
+         margin-left: 10%;
     }
-    .nav.utility {
-        float: none;
-        margin-left: 11%;
+     .nav.utility {
+         float: none;
+         margin-left: 11%;
     }
-
 }
-
 /*-----iPhone 7, iPhone 8---- Landscape---*/
-@media screen and (width: 667px) and (height: 375px) {
-	ul.nav.utility> li> a {
-        font-size: 7px;
+ @media screen and (width: 667px) and (height: 375px) {
+     ul.nav.utility> li> a {
+         font-size: 7px;
     }
-	#searchButton {
-        font-size: 9px;
-        width: 99px;
+     #searchButton {
+         font-size: 9px;
+         width: 99px;
     }
-    #signup {
-        font-size: 9px;
-        width: 63px;
+     #signup {
+         font-size: 9px;
+         width: 63px;
     }
-    ul.nav.main > li > a {
-        font-size: 9px;
+     ul.nav.main > li > a {
+         font-size: 9px;
     }
-
 }
-
 /*-----iPhone 7 Plus, iPhone 8 Plus---- Portrait---*/
-@media screen and (width: 414px) and (height: 736px) {
-	#logo{
-        width: 50%;
+ @media screen and (width: 414px) and (height: 736px) {
+     #logo{
+         width: 50%;
     }
-    .hamburger {
-        margin-left: 88%;
-        margin-top: -11%;
+     .hamburger {
+         margin-left: 88%;
+         margin-top: -11%;
     }
-    .navigation {
-        margin-left: 0px;
-        width: 101%;
+     .navigation {
+         margin-left: 0px;
+         width: 101%;
     }
-    ul.nav.main > li > a {
-        font-size: 25px;
+     ul.nav.main > li > a , #searchButton, #signup {
+         font-size: 25px;
     }
-    ul.nav.utility > li > a {
-        font-size: 20px;
+     ul.nav.utility > li > a {
+         font-size: 20px;
     }
-    .nav.main {
-        float: none;
-        margin-left: 10%;
+     .nav.main {
+         float: none;
+         margin-left: 10%;
     }
-    .nav.utility {
-        float: none;
-        margin-left: 11%;
+     .nav.utility {
+         float: none;
+         margin-left: 11%;
     }
-	
-
 }
-
 /*-----iPhone 7 Plus, iPhone 8 Plus---- Landscape---*/
-@media screen and (width: 736px) and (height: 414px) {
-	ul.nav.utility> li> a {
-        font-size: 7px;
+ @media screen and (width: 736px) and (height: 414px) {
+     ul.nav.utility> li> a {
+         font-size: 7px;
     }
-	#searchButton {
-        font-size: 9px;
-        width: 99px;
+     #searchButton {
+         font-size: 9px;
+         width: 99px;
     }
-    #signup {
-        font-size: 9px;
-        width: 63px;
+     #signup {
+         font-size: 9px;
+         width: 63px;
     }
-    ul.nav.main > li > a {
-        font-size: 9px;
-        margin-left: 8px;
+     ul.nav.main > li > a {
+         font-size: 9px;
+         margin-left: 8px;
     }
-    .nav.utility {
-        margin-left: 78px;
+     .nav.utility {
+         margin-left: 78px;
     }
-    
-
-
 }
-
 /*-----iPhone X---- Portrait---*/
-@media screen and (width: 375px) and (height: 812px) {
-	
-	
-
+ @media screen and (width: 375px) and (height: 812px) {
 }
-
 /*-----iPhone X---- Landscape---*/
-@media screen and (width: 812px) and (height: 375px) {
-	
-	
-
+ @media screen and (width: 812px) and (height: 375px) {
 }
-
 /*-----iPad---- Portrait---*/
-@media screen and (width: 768px) and (height: 1024px) {
-	
-	
-
+ @media screen and (width: 768px) and (height: 1024px) {
 }
-
 /*-----iPad---- Landscape---*/
-@media screen and (width: 1024px) and (height: 768px) {
-	
-	
-
+ @media screen and (width: 1024px) and (height: 768px) {
 }
-
 /*-----iPad Pro---- Portrait---*/
-@media screen and (width: 1024px) and (height: 1366px) {
-	
-
-
+ @media screen and (width: 1024px) and (height: 1366px) {
 }
-
 /*-----iPad Pro---- Landscape---*/
-@media screen and (width: 1366px) and (height: 1024px) {
-	
-
+ @media screen and (width: 1366px) and (height: 1024px) {
 }
-
-
-
+ 
