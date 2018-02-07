@@ -100,12 +100,13 @@ table {
         padding: 10px 4px;
     }
     .nav.utility {
-        float:right;
-        list-style:none;
-        margin:-7px;
-        min-width:44%;
-        text-align:left
-        }
+        float: right;
+        list-style: none;
+        margin: -7px;
+        min-width: 100%;
+        text-align: left;
+        margin-left: 19%;
+    }
         ul.nav.utility> li> a {
             color:#b2b3b4;
             font-family:Proxima_Semibold;
@@ -130,7 +131,7 @@ table {
             color:#ffffff;
             font-family:Proxima_Semibold;
             font-size:13px;
-            width:24%;
+            width:132px;
             }
             
             #signup {
@@ -139,7 +140,7 @@ table {
             color:#ffffff;
             font-family:Proxima_Semibold;
             font-size:13px;
-            width:13%
+            width:94px;
             }
             /* hamburger */
             .hamburger{
@@ -285,7 +286,7 @@ table {
     }
     
     ul.nav.main >li:first-child {
-    margin-left:-38px
+    margin-left:-93px
     }
     
 
