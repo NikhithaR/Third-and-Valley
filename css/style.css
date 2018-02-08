@@ -136,8 +136,6 @@
  #headerImage {
      background:url(../images/Regular_size/Home_hero1.jpg) no-repeat;
      background-size:cover;
-     min-height:500px;
-     width:100% 
 }
  #headerImage li {
      float:left 
