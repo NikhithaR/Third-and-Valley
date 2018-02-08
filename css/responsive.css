@@ -1,4 +1,4 @@
- @media screen and (max-width: 960px){
+ @media screen and (min-width:769px) and (max-width: 960px){
      .nav.utility {
          margin: -.25em;
          margin-left: 1em;
@@ -26,6 +26,12 @@
          width:50%;
          margin-left: 5%;
     }
+/*
+     .headings {
+    padding-top: 167px;
+    text-transform: uppercase;
+}
+*/
      #signup,#searchButton {
          width:10em 
     }
